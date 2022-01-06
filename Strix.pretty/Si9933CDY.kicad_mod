@@ -1,6 +1,6 @@
 (footprint "Si9933CDY" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61C8DEE9)
+  (tedit 61D76569)
   (attr smd)
   (fp_text reference "REF**" (at 0 -3.4) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -35,7 +35,7 @@
   (pad "6" smd roundrect (at 2.475 0.635) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 66f97120-6c7e-441a-9997-acbf3e610e6e))
   (pad "7" smd roundrect (at 2.475 -0.635) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 97208e50-b896-4df8-8da4-ea2fc6b46da5))
   (pad "8" smd roundrect (at 2.475 -1.905) (size 1.95 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d92cfbfa-da4b-4f63-8ad6-7bb6977d4f44))
-  (model "${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+  (model "${KIPRJMOD}/../lib/Strix.models/Si9933CDY.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
