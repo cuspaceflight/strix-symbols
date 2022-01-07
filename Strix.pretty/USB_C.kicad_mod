@@ -1,6 +1,6 @@
 (footprint "USB_C" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61C9DCFE)
+  (tedit 61D86BE8)
   (attr smd)
   (fp_text reference "REF**" (at 0 -6.36) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -56,9 +56,9 @@
   (pad "S1" thru_hole oval (at 4.49 2.84) (size 0.8 1.4) (drill oval 0.5 1.1) (layers *.Cu *.Mask) (tstamp 7cd7460a-de4d-4e2d-ab86-f2bbbcecffa6))
   (pad "S1" thru_hole oval (at -4.49 2.84) (size 0.8 1.4) (drill oval 0.5 1.1) (layers *.Cu *.Mask) (tstamp 931bb4cf-a6ba-41ca-ba4c-951036e4380b))
   (pad "S1" thru_hole oval (at -4.13 -3.11) (size 0.8 1.4) (drill oval 0.5 1.1) (layers *.Cu *.Mask) (tstamp 98ff61a0-d52b-40c3-bed0-01da892c0ad0))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Amphenol_12401610E4-2A.wrl"
-    (offset (xyz 0 0 0))
+  (model "/home/harry/Documents/cusf/lychee/schematics/lib/Strix.models/USB_C.STEP"
+    (offset (xyz 0 -3 1.75))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )

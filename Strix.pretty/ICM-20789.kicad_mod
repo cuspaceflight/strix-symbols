@@ -1,6 +1,6 @@
 (footprint "ICM-20789" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61C8B3AD)
+  (tedit 61D8671A)
   (attr smd)
   (fp_text reference "REF**" (at 0 -3.25) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -80,7 +80,7 @@
   (pad "22" smd roundrect (at -0.2 -1.5 90) (size 0.55 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp cff42663-deef-4571-bca4-0e9d38b52f7e))
   (pad "23" smd roundrect (at -0.6 -1.5 90) (size 0.55 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp fc49b511-c388-4540-826a-ea5b6d6e23a3))
   (pad "24" smd roundrect (at -1 -1.5 90) (size 0.55 0.2) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1d2a62f2-25cd-45c9-854b-2e57df96344c))
-  (model "${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-24_3x3mm_P0.4mm_EP1.7x1.54mm.wrl"
+  (model "${KIPRJMOD}/../lib/Strix.models/ICM-20789.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

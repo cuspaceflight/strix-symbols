@@ -1,6 +1,6 @@
 (footprint "B330" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61C9DA57)
+  (tedit 61D863FB)
   (attr smd)
   (fp_text reference "REF**" (at 0 -3) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -33,7 +33,7 @@
   (fp_line (start 2.3 -2) (end 2.3 2) (layer "F.Fab") (width 0.1) (tstamp e9d05b10-8e5b-4578-bf36-7ba778af0626))
   (pad "1" smd rect (at -2.7 0) (size 3.5 2.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6eaac6ed-ba0a-46cb-a452-f101e690df96))
   (pad "2" smd rect (at 2.7 0) (size 3.5 2.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 983d644f-93f6-4c81-b3b3-dda4967ed234))
-  (model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_SMB.wrl"
+  (model "${KIPRJMOD}/../lib/Strix.models/B330.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

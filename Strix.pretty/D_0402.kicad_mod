@@ -1,6 +1,6 @@
 (footprint "D_0402" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61C75660)
+  (tedit 61D86046)
   (descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
   (tags "diode handsolder")
   (attr smd)

@@ -1,6 +1,6 @@
 (footprint "LTC4002-ES8" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61C8DF4B)
+  (tedit 61D86774)
   (attr smd)
   (fp_text reference "REF**" (at 0 -3.4) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -35,7 +35,7 @@
   (pad "6" smd roundrect (at 2.575 0.635) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e0fafb5a-7612-49f2-857e-07a48cf36c67))
   (pad "7" smd roundrect (at 2.575 -0.635) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e34767e1-a29c-42c3-8abb-ef0a479b6adf))
   (pad "8" smd roundrect (at 2.575 -1.905) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 8a80af2d-ce13-4b11-8a6d-9856813678bd))
-  (model "${KISYS3DMOD}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.wrl"
+  (model "${KIPRJMOD}/../lib/Strix.models/LTC4002-ES8.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,6 +1,6 @@
 (footprint "Header_SWD" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61CA4D03)
+  (tedit 61D86519)
   (attr through_hole)
   (fp_text reference "REF**" (at 1.27 -2.33) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -41,7 +41,7 @@
   (pad "8" thru_hole oval (at 2.54 7.62) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp a0669899-5470-43ea-a529-f6722444bf9b))
   (pad "9" thru_hole oval (at 0 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp c2fd4927-8431-4c85-b75d-1336c8306cc2))
   (pad "10" thru_hole oval (at 2.54 10.16) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 2a134ab3-6275-4421-945b-c8f4bea31494))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x05_P2.54mm_Vertical.wrl"
+  (model "${KIPRJMOD}/../lib/Strix.models/Header_SWD.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

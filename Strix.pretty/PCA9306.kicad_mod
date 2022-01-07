@@ -1,6 +1,6 @@
 (footprint "PCA9306" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61C8E524)
+  (tedit 61D869C7)
   (attr smd)
   (fp_text reference "REF**" (at 0 -3.4) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -35,7 +35,7 @@
   (pad "6" smd roundrect (at 2.575 0.635) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 9538e4ed-27e6-4c37-b989-9859dc0d49e8))
   (pad "7" smd roundrect (at 2.575 -0.635) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e1105432-6a2f-45d9-8a08-47401d087cf4))
   (pad "8" smd roundrect (at 2.575 -1.905) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 851ab59d-1fd7-45c7-a775-29797327cafc))
-  (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.wrl"
+  (model "${KIPRJMOD}/../lib/Strix.models/PCA9306.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,6 +1,6 @@
 (footprint "BQ29200" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61C8DF66)
+  (tedit 61D86197)
   (attr smd)
   (fp_text reference "REF**" (at 0 -2.55) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -49,7 +49,7 @@
   (pad "7" smd rect (at 1.4 -0.325) (size 0.65 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f2d201ea-d050-4595-9ca9-725c46100429))
   (pad "8" smd rect (at 1.4 -0.975) (size 0.65 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5d2f3ae9-e953-4b8b-8ec2-7e1e969f3fae))
   (pad "9" smd rect (at 0 0) (size 1.55 2.4) (layers "F.Cu" "F.Mask") (tstamp b477ea08-8de0-4172-99c0-8de7d4429a1d))
-  (model "${KISYS3DMOD}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm.wrl"
+  (model "${KIPRJMOD}/../lib/Strix.models/BQ29200.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,6 +1,6 @@
 (footprint "Header_RaspberryPi" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61CA4AFB)
+  (tedit 61D864EC)
   (attr through_hole)
   (fp_text reference "REF**" (at 1.27 -2.33) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -71,7 +71,7 @@
   (pad "38" thru_hole oval (at 2.54 45.72) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 014d13cd-26ad-4d0e-86ad-a43b541cab14))
   (pad "39" thru_hole oval (at 0 48.26) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 7744b6ee-910d-401d-b730-65c35d3d8092))
   (pad "40" thru_hole oval (at 2.54 48.26) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 633292d3-80c5-4986-be82-ce926e9f09f4))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x20_P2.54mm_Vertical.wrl"
+  (model "${KIPRJMOD}/../lib/Strix.models/Header_RaspberryPi.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

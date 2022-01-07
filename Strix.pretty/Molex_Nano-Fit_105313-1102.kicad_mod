@@ -1,6 +1,6 @@
 (footprint "Molex_Nano-Fit_105313-1102" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61C9DCF3)
+  (tedit 61D86975)
   (attr through_hole)
   (fp_text reference "REF**" (at 6.15 -2.92) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -44,7 +44,7 @@
   (pad "" np_thru_hole circle (at 7.18 2.5) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp 7d0dab95-9e7a-486e-a1d7-fc48860fd57d))
   (pad "1" thru_hole roundrect (at 0 0) (size 2.2 1.7) (drill 1.2) (layers *.Cu *.Mask) (roundrect_rratio 0.147059) (tstamp 2b5a9ad3-7ec4-447d-916c-47adf5f9674f))
   (pad "2" thru_hole oval (at 0 2.5) (size 2.2 1.7) (drill 1.2) (layers *.Cu *.Mask) (tstamp c8a44971-63c1-4a19-879d-b6647b2dc08d))
-  (model "${KISYS3DMOD}/Connector_Molex.3dshapes/Molex_Nano-Fit_105313-xx02_1x02_P2.50mm_Horizontal.wrl"
+  (model "${KIPRJMOD}/../lib/Strix.models/Molex_Nano-Fit_105313-1102.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

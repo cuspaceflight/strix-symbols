@@ -1,6 +1,6 @@
 (footprint "BSS138" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61C8E2C1)
+  (tedit 61D8645B)
   (attr smd)
   (fp_text reference "REF**" (at 0 -2.4) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -30,7 +30,7 @@
   (pad "1" smd roundrect (at -0.9375 -0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp db4f3c25-f8e7-4f26-99f8-988930ae814e))
   (pad "2" smd roundrect (at -0.9375 0.95) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 038a3fe5-035a-4e1c-ba13-3474b63e4a27))
   (pad "3" smd roundrect (at 0.9375 0) (size 1.475 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp f1ad2e2b-0a61-49d4-b91a-3860524e5701))
-  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl"
+  (model "${KIPRJMOD}/../lib/Strix.models/BSS138.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

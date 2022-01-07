@@ -1,6 +1,6 @@
 (footprint "L_Wuerth_HCI-7050" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61C9DA60)
+  (tedit 61D868E9)
   (descr "Inductor, Wuerth Elektronik, Wuerth_HCI-7050, 6.9mmx6.9mm")
   (tags "inductor Wuerth hci smd")
   (attr smd)
@@ -32,7 +32,7 @@
   (fp_line (start 3.45 -3.45) (end -3.45 -3.45) (layer "F.Fab") (width 0.1) (tstamp ab1d3488-e5ce-4465-9db8-b377c7596845))
   (pad "1" smd rect (at -2.8 0) (size 3.1 3.6) (layers "F.Cu" "F.Adhes" "F.Paste" "F.Mask") (tstamp 34dffb44-1559-4592-966a-e28613dfb4c2))
   (pad "2" smd rect (at 2.8 0) (size 3.1 3.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e7451bf1-ebb3-4603-ab8f-fce122a587bc))
-  (model "${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Wuerth_HCI-7050.wrl"
+  (model "${KIPRJMOD}/../lib/Strix.models/L_Wuerth_HCI-7050.STEP"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
