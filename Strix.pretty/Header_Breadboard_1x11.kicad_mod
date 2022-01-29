@@ -1,6 +1,6 @@
 (footprint "Header_Breadboard_1x11" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61F2F9C0)
+  (tedit 61F46520)
   (attr through_hole)
   (fp_text reference "REF**" (at 0 -2.33) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -41,8 +41,8 @@
   (pad "10" thru_hole oval (at 0 22.86) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 99532f04-0438-4c37-a176-941b50c7b810))
   (pad "11" thru_hole oval (at 0 25.4) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 2dfe29d2-c426-409b-af1d-2777b1eac584))
   (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x11_P2.54mm_Vertical.wrl"
-    (offset (xyz 0 0 0))
+    (offset (xyz 0 0 -1.7))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 180 0))
   )
 )
