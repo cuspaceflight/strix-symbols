@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tedit 61EE9027)
   (attr smd)
-  (fp_text reference "REF**" (at 0 -1.17) (layer "F.Fab")
+  (fp_text reference "REF**" (at 0 -1.17) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 181743ff-74dc-4f2c-91cb-dcb6366eea9e)
   )
