@@ -3,7 +3,7 @@
   (tedit 61D863E8)
   (descr "Laird Technologies BMI-S-201-F Shielding Cabinet Two Piece SMD 13.66x12.70mm (https://assets.lairdtech.com/home/brandworld/files/Board%20Level%20Shields%20Catalog%20Download.pdf)")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -8.23) (layer "F.Fab")
+  (fp_text reference "REF**" (at 0 -8.23) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp afd38b10-2eca-4abe-aed1-a96fb07ffdbe)
   )

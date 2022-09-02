@@ -4,7 +4,7 @@
   (descr "Diode SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
   (tags "diode handsolder")
   (attr smd)
-  (fp_text reference "REF**" (at 0 -1.17) (layer "F.Fab")
+  (fp_text reference "REF**" (at 0 -1.17) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0b9f21ed-3d41-4f23-ae45-74117a5f3153)
   )
